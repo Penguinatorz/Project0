@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+html{
+    background-color: hsl(287, 65%, 88%);
+}
+
+.imageContainer {
+    position: relative;
+    text-align: center;
+    border: 5px hsla(287, 65%, 74%, 0.592) solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 600px;
+    min-height: 200px;
+}
+.pizzaheader{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.imageText{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: rgb(10, 12, 13);
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+.imageText p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    word-spacing: -3px;
+    position: relative;
+    top: 10px;
+}
+#audioCont{
+    width: 150px;
+    height: 100px;
+    padding: 0px 5px 0px 10px;
+}
+
+.bodyContainer {
+    display: flex;
+    list-style: none;
+    border: 5px #d2ad7f solid;
+    flex-direction: row;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.bodyTextContentL{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+    border: 5px hsla(287, 65%, 74%, 0.592) solid;
+    margin: 0 2vh 0 0;
+    height: fit-content;
+}
+.bodyTextContentL h1 {
+    padding-right: 5px;
+}
+.bodyTextContentR{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 5px hsla(287, 65%, 74%, 0.592) solid;
+    height: fit-content;
+}
+.jokeDay{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    word-spacing: 5px;
+    font-size: 3vw;
+}
+.btnCont{
+    height: fit-content;
+}
+.btnJoke{
+    font-size: 1vw;
+    width: fit-content;
+    height: fit-content;
+}
+.titleRest{
+    font-size: 2vw;
+}
+.starsRest{
+    color: rgb(238, 172, 72);
+    fill: yellow;
+}
+.bodyTextContentL p {
+    font-size: 2vw;
+}
+.bodyTextContentR p {
+
+    font-size: 2vw;
+}
+
+
+@media all and (max-width:720px){
+    .imageText{
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        border-radius: 3px;
+    }
+    #audioCont{
+        padding: 0px 5px 5px 5px;
+    }
+
+}
+
+
+

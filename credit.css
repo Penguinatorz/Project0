@@ -1,0 +1,41 @@
+html{
+    background-color: hsl(287, 65%, 88%);
+}
+
+.containerBlock {
+    position: relative;
+    border: 5px hsla(33, 65%, 74%, 0.592) solid;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.textPa{
+    font-size: 1.5vw;
+}
+
+.h1Title{
+    font-size: 3vw;
+}
+
+#audioCont{
+    width: 150px;
+    height: 100px;
+    padding: 0px 5px 0px 10px;
+}
+
+@media all and (max-width:720px){
+    .textPa{
+        font-size: 3vw;
+    }
+    
+    .h1Title{
+        font-size: 5vw;
+    }
+    #audioCont{
+        max-width: 200px;
+        max-height: 150px;
+    }
+    
+}

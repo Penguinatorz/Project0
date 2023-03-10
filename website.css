@@ -1,0 +1,49 @@
+/* html and body resizing*/
+html{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    margin: 0px;
+}
+/* Navbar and dom css selector hover style*/
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #d2ad7f;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.navLi{
+    padding: 5px 0px;
+}
+.navLi a{
+    color: #34495e;
+    font-size: 2vw;
+    text-decoration: none;
+    padding: 5px 2px;
+}
+
+.navLi a:hover {
+	color: #c34949;
+    background-color: #b68e5d;
+}
+
+
+/* media queries*/
+@media all and (max-width: 720px){
+
+    .navLi {
+        padding: 10px 0px;
+    }
+    .navLi a{
+        font-size: 3vw;
+        padding: 10px 3px;
+    }
+}
+
+
+
+  
